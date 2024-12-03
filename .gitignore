@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# DuckDB database files
+duckdb/*.duckdb
+
+# Logs
+*.log
+
+# Temporary files and directories
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
