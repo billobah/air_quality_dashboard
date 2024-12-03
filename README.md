@@ -4,16 +4,17 @@ This project builds a complete data pipeline to extract, transform, and visualiz
 
 ## Project Structure
 
-├── README.md # Project documentation<br>
-├── requirements.txt # Dependencies<br>
-├── main.py # Main script to run the ETL pipeline and dashboard<br>
-├── extract.py # Handles data extraction from the Open Air Quality API<br>
-├── transform.py # Contains data transformation logic<br>
-├── load.py # Handles loading data into DuckDB<br>
-├── dashboard.py # Dashboard implementation using Plotly Dash<br>
-├── data/ # Directory for intermediate and raw data (if necessary)<br>
+├── README.md # Project documentation
+├── requirements.txt # Dependencies
+├── secrets-example.json # Example file for storing your API Key. Do not commit this file to Github.
+├── main.py # Main script to run the ETL pipeline and dashboard
+├── extract.py # Handles data extraction from the Open Air Quality API
+├── transform.py # Contains data transformation logic
+├── load.py # Handles loading data into DuckDB
+├── dashboard.py # Dashboard implementation using Plotly Dash
+├── data/ # Directory for intermediate and raw data (if necessary)
+├── notebooks/ # Testing notebooks 
 └── duckdb/ # Directory for DuckDB files
-
 
 ## Features
 
@@ -34,12 +35,14 @@ Ensure you have the following installed:
 ### Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/billobah/air_quality_dashboard.git
    cd air_quality_dashboard
    ```
 
 2. Create a virtual environment for your project:
+
    ```bash
    python3 -m venv venv
    ```
@@ -53,14 +56,15 @@ Ensure you have the following installed:
   ```
 
 - On **Windows:**
- 
+
   ```bash
   .\venv\Scripts\activate
-  ``` 
+  ```
 
 This will create a folder named venv containing the virtual environment.
 
-3. Install dependencies:
+1. Install dependencies:
+
   ```bash
   pip install -r requirements.txt
   ```
@@ -68,6 +72,7 @@ This will create a folder named venv containing the virtual environment.
 ### Running the Project
 
 1. Run the ETL pipeline:
+
    ```bash
    python main.py
    ```
@@ -89,6 +94,7 @@ Manages loading data into a DuckDB database.
 Creates a Plotly Dash dashboard for visualizing air quality trends.
 
 ## Future Enhancements
+
 - Add support for real-time data updates.
 - Integrate with more APIs for broader data coverage.
 - Enhance dashboard visualizations.
