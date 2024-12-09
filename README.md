@@ -4,17 +4,17 @@ This project builds a complete data pipeline to extract, transform, and visualiz
 
 ## Project Structure
 
-├── README.md # Project documentation
-├── requirements.txt # Dependencies
-├── secrets-example.json # Example file for storing your API Key. Do not commit this file to Github.
-├── main.py # Main script to run the ETL pipeline and dashboard
-├── extract.py # Handles data extraction from the Open Air Quality API
-├── transform.py # Contains data transformation logic
-├── load.py # Handles loading data into DuckDB
-├── dashboard.py # Dashboard implementation using Plotly Dash
-├── data/ # Directory for intermediate and raw data (if necessary)
-├── notebooks/ # Testing notebooks 
-└── duckdb/ # Directory for DuckDB files
+├── README.md # Project documentation <br>
+├── requirements.txt # Dependencies <br>
+├── secrets-example.json # Example file for storing your API Key. Do not commit this file to Github. <br>
+├── main.py # Main script to run the ETL pipeline and dashboard <br>
+├── extract.py # Handles data extraction from the Open Air Quality API <br>
+├── transform.py # Contains data transformation logic <br>
+├── load.py # Handles loading data into DuckDB <br>
+├── dashboard.py # Dashboard implementation using Plotly Dash <br>
+├── data/ # Directory for intermediate and raw data (if necessary) <br>
+├── notebooks/ # This folder contains python nootebook to explore the data and test stuffs.  <br>
+└── duckdb/ # Directory for DuckDB files <br>
 
 ## Features
 
@@ -58,7 +58,7 @@ Ensure you have the following installed:
 - On **Windows:**
 
   ```bash
-  .\venv\Scripts\activate
+  .\.venv\Scripts\activate
   ```
 
 This will create a folder named venv containing the virtual environment.

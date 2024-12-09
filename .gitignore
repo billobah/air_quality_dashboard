@@ -1,6 +1,13 @@
 # My files
 secrets.json
 
+# Gitignore configuration snippets for DuckDB
+*.wal
+*.tmp/
+*.duckdb*
+*.wal
+*.tmp/
+
 # Byte-compiled / optimized / compiled Python files
 __pycache__/
 *.py[cod]
